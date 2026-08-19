@@ -1,0 +1,359 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Contact Us | Razant Nigeria</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&amp;family=Inter:wght@400;500&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary-container": "#0b1c30",
+                    "outline-variant": "#c6c6cd",
+                    "secondary-fixed": "#ffdbca",
+                    "primary-container": "#131b2e",
+                    "on-error-container": "#93000a",
+                    "background": "#f7f9fb",
+                    "on-tertiary-container": "#75859d",
+                    "on-tertiary": "#ffffff",
+                    "surface-tint": "#565e74",
+                    "error-container": "#ffdad6",
+                    "on-background": "#191c1e",
+                    "surface-dim": "#d8dadc",
+                    "secondary-container": "#fd761a",
+                    "inverse-surface": "#2d3133",
+                    "surface-container-high": "#e6e8ea",
+                    "on-primary-fixed-variant": "#3f465c",
+                    "on-primary": "#ffffff",
+                    "secondary-fixed-dim": "#ffb690",
+                    "on-secondary-fixed-variant": "#783200",
+                    "on-secondary": "#ffffff",
+                    "surface": "#f7f9fb",
+                    "on-error": "#ffffff",
+                    "surface-container-highest": "#e0e3e5",
+                    "primary-fixed": "#dae2fd",
+                    "primary-fixed-dim": "#bec6e0",
+                    "secondary": "#9d4300",
+                    "on-secondary-container": "#5c2400",
+                    "on-primary-fixed": "#131b2e",
+                    "surface-container-low": "#f2f4f6",
+                    "inverse-primary": "#bec6e0",
+                    "tertiary-fixed-dim": "#b7c8e1",
+                    "on-primary-container": "#7c839b",
+                    "error": "#ba1a1a",
+                    "primary": "#000000",
+                    "on-surface": "#191c1e",
+                    "surface-variant": "#e0e3e5",
+                    "surface-container": "#eceef0",
+                    "on-surface-variant": "#45464d",
+                    "on-secondary-fixed": "#341100",
+                    "on-tertiary-fixed-variant": "#38485d",
+                    "inverse-on-surface": "#eff1f3",
+                    "surface-container-lowest": "#ffffff",
+                    "tertiary": "#000000",
+                    "tertiary-fixed": "#d3e4fe",
+                    "on-tertiary-fixed": "#0b1c30",
+                    "surface-bright": "#f7f9fb",
+                    "outline": "#76777d"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "gutter": "24px",
+                    "container-max": "1280px",
+                    "unit": "8px",
+                    "margin": "32px"
+            },
+            "fontFamily": {
+                    "headline-xl": ["Montserrat"],
+                    "label-caps": ["JetBrains Mono"],
+                    "body-sm": ["Inter"],
+                    "metric-display": ["Montserrat"],
+                    "headline-lg-mobile": ["Montserrat"],
+                    "body-md": ["Inter"],
+                    "headline-lg": ["Montserrat"]
+            },
+            "fontSize": {
+                    "headline-xl": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "label-caps": ["12px", {"lineHeight": "1", "letterSpacing": "0.1em", "fontWeight": "500"}],
+                    "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                    "metric-display": ["20px", {"lineHeight": "1", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                    "headline-lg-mobile": ["24px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .technical-shadow { box-shadow: 4px 4px 0px rgba(15, 23, 42, 0.05); }
+        .hazard-stripe {
+            background: repeating-linear-gradient(
+                45deg,
+                #fd761a,
+                #fd761a 10px,
+                #e2e8f0 10px,
+                #e2e8f0 20px
+            );
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md">
+<!-- TopNavBar -->
+<nav class="w-full top-0 sticky z-50 bg-surface-container-lowest border-b border-outline-variant">
+<div class="flex justify-between items-center h-20 px-gutter max-w-container-max mx-auto">
+<div class="font-headline-lg text-headline-lg font-bold text-primary">Razant Services Limited</div>
+<!-- Desktop Links -->
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-secondary transition-colors duration-200" href="#">Home</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-secondary transition-colors duration-200" href="#">Services</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-secondary transition-colors duration-200" href="#">Projects</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-secondary transition-colors duration-200" href="#">About</a>
+<a class="font-label-caps text-label-caps text-secondary border-b-2 border-secondary pb-1" href="#">Contact</a>
+</div>
+<button class="bg-secondary-container text-on-secondary px-6 py-3 font-label-caps text-label-caps hover:bg-secondary transition-all active:scale-95">
+                Get Quote
+            </button>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative h-[614px] flex items-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full bg-cover bg-center" data-alt="A cinematic, high-resolution photograph of a massive offshore oil rig silhouette against a vibrant, deep orange and purple sunset sky in Nigeria. The water reflects the warm industrial glow, and the scene is framed with a professional architectural perspective, emphasizing the scale and technical precision of energy infrastructure. The lighting is dramatic and warm, reinforcing a sense of stability and industrial leadership." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBEV3zQVePwTXQq84b9-DTpOFnp8qaoodBZM5SczEvB1qghnct2kpk3dJ-B3Ww4AtN9UUa7x_1hXth5j12z_JVNPgYJ0aXZ-hCUjXN9l0JJHu-LymzGYwswAxeBge3eFnfgk_-o4Tq3GdauXuGodg3sPXvF57omEVS3hDufz95Vh6eJYXn7JsurvmkJa2nJo29DkDCkMjhhe-GCcb0I0IF_Z9_G20e5HeugHVV9NaU3annqEpE3UjmNKpb6dRCY4hiDLNmeuyO7h-zG')"></div>
+<div class="absolute inset-0 bg-primary/40 mix-blend-multiply"></div>
+</div>
+<div class="relative z-10 max-w-container-max mx-auto px-gutter w-full">
+<div class="max-w-2xl border-l-4 border-secondary-container pl-8">
+<p class="font-label-caps text-label-caps text-secondary-fixed mb-4">ESTABLISHED PRECISION</p>
+<h1 class="font-headline-xl text-headline-xl text-white mb-6">Partner with Energy Leaders</h1>
+<p class="text-white/80 max-w-md">Engineering the future of West African infrastructure through reliable oilfield services and technical excellence.</p>
+</div>
+</div>
+</header>
+<main class="max-w-container-max mx-auto px-gutter py-16">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- Contact Form Section -->
+<section class="lg:col-span-7">
+<div class="bg-surface-container-lowest border border-outline-variant p-unit*4 md:p-10 technical-shadow">
+<h2 class="font-headline-lg text-headline-lg mb-2">Project Inquiry</h2>
+<p class="text-on-surface-variant mb-8 font-body-sm">Submit your technical requirements and our engineering team will respond within 24 hours.</p>
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="font-label-caps text-[10px] uppercase tracking-widest text-outline">Full Name</label>
+<input class="w-full border border-outline-variant bg-surface px-4 py-3 focus:ring-0 focus:border-secondary-container outline-none transition-colors" placeholder="John Doe" type="text">
+</div>
+<div class="space-y-2">
+<label class="font-label-caps text-[10px] uppercase tracking-widest text-outline">Company Email</label>
+<input class="w-full border border-outline-variant bg-surface px-4 py-3 focus:ring-0 focus:border-secondary-container outline-none transition-colors" placeholder="j.doe@enterprise.com" type="email">
+</div>
+</div>
+<div class="space-y-2">
+<label class="font-label-caps text-[10px] uppercase tracking-widest text-outline">Inquiry Type</label>
+<select class="w-full border border-outline-variant bg-surface px-4 py-3 focus:ring-0 focus:border-secondary-container outline-none transition-colors appearance-none">
+<option>Oilfield Services</option>
+<option>Technical Training</option>
+<option>Logistics &amp; Fleet Management</option>
+<option>Safety &amp; Compliance Audit</option>
+</select>
+</div>
+<div class="space-y-2">
+<label class="font-label-caps text-[10px] uppercase tracking-widest text-outline">Project Details</label>
+<textarea class="w-full border border-outline-variant bg-surface px-4 py-3 focus:ring-0 focus:border-secondary-container outline-none transition-colors" placeholder="Describe your operational needs..." rows="5"></textarea>
+</div>
+<button class="w-full bg-secondary-container text-on-secondary font-label-caps text-label-caps py-4 flex items-center justify-center gap-3 hover:bg-secondary transition-colors" type="submit">
+                            INITIATE CONSULTATION
+                            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</form>
+</div>
+</section>
+<!-- Sidebar: Quick Contacts & Hours -->
+<aside class="lg:col-span-5 space-y-8">
+<!-- Quick Contacts -->
+<div class="border border-outline-variant bg-surface-container-low p-8">
+<h3 class="font-label-caps text-label-caps text-secondary mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined">contact_phone</span>
+                        DIRECT CHANNELS
+                    </h3>
+<div class="space-y-8">
+<div class="flex gap-4">
+<div class="w-12 h-12 bg-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-white" style="font-variation-settings: 'FILL' 1;">emergency</span>
+</div>
+<div>
+<p class="font-label-caps text-[10px] text-outline mb-1">EMERGENCY SUPPORT (24/7)</p>
+<p class="font-headline-lg-mobile text-headline-lg-mobile text-primary font-bold">+234 (0) 8155116939</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="w-12 h-12 bg-surface-container-highest flex items-center justify-center border border-outline-variant">
+<span class="material-symbols-outlined text-primary">school</span>
+</div>
+<div>
+<p class="font-label-caps text-[10px] text-outline mb-1">TRAINING ENROLLMENT</p>
+<p class="font-metric-display text-metric-display text-primary">+234 (0) 8155116939</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Office Hours -->
+<div class="border border-outline-variant bg-surface-container-lowest p-8 technical-shadow">
+<h3 class="font-label-caps text-label-caps text-primary mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined">schedule</span>
+                        OPERATIONAL HOURS
+                    </h3>
+<div class="space-y-4">
+<div class="flex justify-between border-b border-outline-variant pb-2">
+<span class="font-body-sm text-on-surface-variant">Standard Operations</span>
+<span class="font-label-caps text-primary">08:00 - 18:00</span>
+</div>
+<div class="flex justify-between border-b border-outline-variant pb-2">
+<span class="font-body-sm text-on-surface-variant">Weekend Logistics</span>
+<span class="font-label-caps text-primary">10:00 - 14:00</span>
+</div>
+<div class="flex items-center gap-3 p-3 bg-secondary/10 border-l-4 border-secondary mt-4">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">verified</span>
+<p class="font-body-sm text-on-secondary-container">Field response teams available 24/7 for active project sites.</p>
+</div>
+</div>
+</div>
+</aside>
+</div>
+<!-- Office Locations Grid -->
+<section class="mt-24">
+<div class="flex flex-col md:flex-row justify-between items-end mb-12 border-b border-outline-variant pb-6">
+<div>
+<h2 class="font-headline-lg text-headline-lg">Global Presence</h2>
+<p class="text-on-surface-variant mt-2">Strategic hubs across Nigeria's energy corridors.</p>
+</div>
+<div class="font-label-caps text-label-caps text-outline">3 LOCATIONS ACTIVE</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Victoria Island HQ -->
+<div class="group border border-outline-variant bg-surface-container-lowest overflow-hidden technical-shadow">
+<div class="h-48 w-full bg-slate-200 relative">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="A clean, technical 3D architectural map rendering of Victoria Island, Lagos, highlighting corporate infrastructure with a professional, minimalist grey and navy color palette. The map includes subtle grid lines and pinpoints the commercial hub with industrial precision, maintaining the high-end corporate aesthetic of the brand." data-location="Lagos, Victoria Island" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD-7lVQjsVlSjVt0BwQbx430XnuMQNmXpLdjt4OQXfsj_VU0q_6RCPFxqWc4JNVehYfsczOGeeQEXP1F9AuBCfIlRMXTyUviRfmK9Pin6jHg3Hz31AbK2KmJBVBuVE3KU9NLtjd4Gyt_Zws6aqyGLMDdS_2WuE7y29vQ8L2BiZvGOgxdsYZ5lFH0NOcOuLWw2PBwfwSZAL4HcoEQuHW_egVpHrde781vF_GJcr4yfKod0XQo7Pab3twBkY621f3qFdTR-I5pmmd6gWR')"></div>
+<div class="absolute top-4 left-4 bg-primary text-white px-3 py-1 font-label-caps text-[10px]">HEADQUARTERS</div>
+</div>
+<div class="p-6">
+<h4 class="font-metric-display text-metric-display mb-2">Victoria Island</h4>
+<p class="font-body-sm text-on-surface-variant mb-6">45 Energy Way, Corporate District,<br>Lagos State, Nigeria</p>
+<a class="inline-flex items-center gap-2 font-label-caps text-label-caps text-secondary hover:underline" href="#">
+                            VIEW DIRECTIONS
+                            <span class="material-symbols-outlined text-sm">open_in_new</span>
+</a>
+</div>
+</div>
+<!-- Port Harcourt -->
+<div class="group border border-outline-variant bg-surface-container-lowest overflow-hidden technical-shadow">
+<div class="h-48 w-full bg-slate-200 relative">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="A specialized engineering map of Port Harcourt, Rivers State, focusing on the industrial and oilfield logistics zones. The visual style is inspired by modern blueprint aesthetics with high-contrast outlines and a professional navy and slate color scheme, emphasizing the area's role as a major energy hub." data-location="Port Harcourt" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuADUNblRttXcOc60NtwcSJs06xgSW_m410s4K4hHh-LVOeDbqLqP6dOcDogI40iY2O2d1B5ngKEY_zCb_tkZNRLX7x7XczKvQ_NcNNpKQC5CNVA2t7b9QYQyOXFFWHmIpDmQCXzU21gTRgHXgX6YRDtuzpFU5VMts29x889Qjgy3pF6IYSTpG1ZufzkglbwbG7-MPJ-fpEMFM3o5_tlCE5AFhUw5xyVGi5zdQ2fTLqBLreCwFHRf1Ah-aEKU3hiSpRkH7dVDP_Ukb31')"></div>
+<div class="absolute top-4 left-4 bg-secondary text-white px-3 py-1 font-label-caps text-[10px]">LOGISTICS HUB</div>
+</div>
+<div class="p-6">
+<h4 class="font-metric-display text-metric-display mb-2">Port Harcourt</h4>
+<p class="font-body-sm text-on-surface-variant mb-6">Terminal 7, Oilfield Support Base,<br>Rivers State, Nigeria</p>
+<a class="inline-flex items-center gap-2 font-label-caps text-label-caps text-secondary hover:underline" href="#">
+                            VIEW DIRECTIONS
+                            <span class="material-symbols-outlined text-sm">open_in_new</span>
+</a>
+</div>
+</div>
+<!-- Abuja -->
+<div class="group border border-outline-variant bg-surface-container-lowest overflow-hidden technical-shadow">
+<div class="h-48 w-full bg-slate-200 relative">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="A clean, minimalist vector-style map of Abuja's Central Business District, featuring high-end architectural renderings of government and administrative zones. The color palette uses subtle tones of white, grey, and industrial navy to reflect a sophisticated, regulatory-focused environment suitable for an energy firm's administrative headquarters." data-location="Abuja" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA_JkD_f6XQGLURv5msEKY-roAOk3mw8ZGOZqmidhcqvhlPdWDDGAduWwVpYVpL9z5qF5QUNv7-U3qgVPac3GtKw1kuoGrPI19y7x-bTTwUgUBBxkeKTZxN1VsR1E9EOzwgdxXwlAqfFo92UKvnVF2E2IjR94K1OYaztTy4f8BEoHFEzQK0jwtQ4ONh6O2LKK-IS1Z7PoK-hKGOuzysDZlFLDL9SW9rzR7ls-JBTuYo9QLltDZrkmVJ4JlqQ-r4TnIp7DgJXK7e-Rvf')"></div>
+<div class="absolute top-4 left-4 bg-tertiary-container text-white px-3 py-1 font-label-caps text-[10px]">ADMINISTRATIVE</div>
+</div>
+<div class="p-6">
+<h4 class="font-metric-display text-metric-display mb-2">Abuja</h4>
+<p class="font-body-sm text-on-surface-variant mb-6">Suite 302, Capital Plaza, CBD,<br>FCT Abuja, Nigeria</p>
+<a class="inline-flex items-center gap-2 font-label-caps text-label-caps text-secondary hover:underline" href="#">
+                            VIEW DIRECTIONS
+                            <span class="material-symbols-outlined text-sm">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Pre-Footer CTA -->
+<section class="w-full bg-primary py-16">
+<div class="max-w-container-max mx-auto px-gutter flex flex-col md:flex-row items-center justify-between gap-8">
+<div class="text-center md:text-left">
+<h2 class="font-headline-lg text-headline-lg text-white mb-2">Start Your Project Today</h2>
+<p class="text-on-primary-container">Download our 2024 Corporate Capabilities Statement.</p>
+</div>
+<div class="flex gap-4">
+<button class="px-8 py-4 border border-outline text-white font-label-caps text-label-caps hover:bg-white/10 transition-all">DOWNLOAD PDF</button>
+<button class="px-8 py-4 bg-secondary-container text-on-secondary font-label-caps text-label-caps hover:bg-secondary transition-all">GET QUOTE</button>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full mt-auto bg-primary-container border-t border-outline-variant">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 px-gutter py-12 max-w-container-max mx-auto">
+<div class="col-span-1 md:col-span-1">
+<div class="font-headline-lg text-headline-lg text-on-primary font-bold mb-4">Razant Services Limited</div>
+<p class="font-body-sm text-on-primary-container">Excellence in Heavy Infrastructure and Oilfield Technical Solutions.</p>
+</div>
+<div>
+<h5 class="font-label-caps text-label-caps text-secondary mb-6">SERVICES</h5>
+<ul class="space-y-3">
+<li class=""><a class="font-body-sm text-on-primary-container hover:text-on-primary hover:underline" href="#">Oilfield Services</a></li>
+<li class=""><a class="font-body-sm text-on-primary-container hover:text-on-primary hover:underline" href="#">Technical Training</a></li>
+<li class=""><a class="font-body-sm text-on-primary-container hover:text-on-primary hover:underline" href="#">Logistics</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-label-caps text-label-caps text-secondary mb-6">COMPLIANCE</h5>
+<ul class="space-y-3">
+<li class=""><a class="font-body-sm text-on-primary-container hover:text-on-primary hover:underline" href="#">HSE Policy</a></li>
+<li class=""><a class="font-body-sm text-on-primary-container hover:text-on-primary hover:underline" href="#">ISO 9001</a></li>
+<li class=""><a class="font-body-sm text-on-primary-container hover:text-on-primary hover:underline" href="#">Careers</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-label-caps text-label-caps text-secondary mb-6">LEGAL</h5>
+<ul class="space-y-3">
+<li class=""><a class="font-body-sm text-on-primary-container hover:text-on-primary hover:underline" href="#">Privacy Policy</a></li>
+<li class=""><a class="font-body-sm text-on-primary-container hover:text-on-primary hover:underline" href="#">Terms of Service</a></li>
+</ul>
+</div>
+</div>
+<div class="max-w-container-max mx-auto px-gutter py-6 border-t border-outline-variant/20">
+<p class="font-body-sm text-on-primary-container/60 text-center md:text-left">© 2024 Razant Services Limited. All Rights Reserved. ISO 9001 Certified.</p>
+</div>
+</footer>
+<!-- Back to top micro-interaction -->
+<button class="fixed bottom-8 right-8 w-12 h-12 bg-primary border border-outline text-white flex items-center justify-center opacity-0 transition-opacity duration-300 hover:bg-secondary-container" id="backToTop">
+<span class="material-symbols-outlined">north</span>
+</button>
+<script>
+        // Simple back to top functionality
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 500) {
+                backToTopBtn.classList.remove('opacity-0');
+                backToTopBtn.classList.add('opacity-100');
+            } else {
+                backToTopBtn.classList.add('opacity-0');
+                backToTopBtn.</script>
+
+
+
+</body></html>

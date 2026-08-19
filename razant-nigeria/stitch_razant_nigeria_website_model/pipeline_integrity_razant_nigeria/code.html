@@ -1,0 +1,356 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Pipeline Integrity &amp; Management | Razant Nigeria</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;family=Montserrat:wght@600;700;800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-dim": "#d8dadc",
+                      "surface-container-high": "#e6e8ea",
+                      "on-error-container": "#93000a",
+                      "tertiary": "#000000",
+                      "primary-container": "#131b2e",
+                      "on-error": "#ffffff",
+                      "surface-bright": "#f7f9fb",
+                      "on-primary-container": "#7c839b",
+                      "inverse-surface": "#2d3133",
+                      "on-background": "#191c1e",
+                      "outline-variant": "#c6c6cd",
+                      "surface-container-lowest": "#ffffff",
+                      "on-tertiary": "#ffffff",
+                      "on-secondary": "#ffffff",
+                      "on-tertiary-container": "#75859d",
+                      "inverse-on-surface": "#eff1f3",
+                      "on-secondary-fixed-variant": "#783200",
+                      "error": "#ba1a1a",
+                      "on-tertiary-fixed": "#0b1c30",
+                      "on-secondary-container": "#5c2400",
+                      "tertiary-fixed": "#d3e4fe",
+                      "surface-container-low": "#f2f4f6",
+                      "surface-container-highest": "#e0e3e5",
+                      "primary-fixed": "#dae2fd",
+                      "secondary-container": "#fd761a",
+                      "on-tertiary-fixed-variant": "#38485d",
+                      "on-primary-fixed": "#131b2e",
+                      "surface-tint": "#565e74",
+                      "error-container": "#ffdad6",
+                      "on-surface-variant": "#45464d",
+                      "on-secondary-fixed": "#341100",
+                      "on-surface": "#191c1e",
+                      "on-primary": "#ffffff",
+                      "background": "#f7f9fb",
+                      "surface-variant": "#e0e3e5",
+                      "surface": "#f7f9fb",
+                      "secondary-fixed": "#ffdbca",
+                      "surface-container": "#eceef0",
+                      "inverse-primary": "#bec6e0",
+                      "primary-fixed-dim": "#bec6e0",
+                      "on-primary-fixed-variant": "#3f465c",
+                      "primary": "#000000",
+                      "secondary-fixed-dim": "#ffb690",
+                      "secondary": "#9d4300",
+                      "tertiary-fixed-dim": "#b7c8e1",
+                      "tertiary-container": "#0b1c30",
+                      "outline": "#76777d"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "container-max": "1280px",
+                      "margin": "32px",
+                      "unit": "8px",
+                      "gutter": "24px"
+              },
+              "fontFamily": {
+                      "body-md": [
+                              "Inter"
+                      ],
+                      "label-caps": [
+                              "JetBrains Mono"
+                      ],
+                      "headline-lg-mobile": [
+                              "Montserrat"
+                      ],
+                      "headline-lg": [
+                              "Montserrat"
+                      ],
+                      "body-sm": [
+                              "Inter"
+                      ],
+                      "metric-display": [
+                              "Montserrat"
+                      ],
+                      "headline-xl": [
+                              "Montserrat"
+                      ]
+              },
+              "fontSize": {
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "1.6",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "label-caps": [
+                              "12px",
+                              {
+                                      "lineHeight": "1",
+                                      "letterSpacing": "0.1em",
+                                      "fontWeight": "500"
+                              }
+                      ],
+                      "headline-lg-mobile": [
+                              "24px",
+                              {
+                                      "lineHeight": "1.2",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "headline-lg": [
+                              "32px",
+                              {
+                                      "lineHeight": "1.2",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "body-sm": [
+                              "14px",
+                              {
+                                      "lineHeight": "1.5",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "metric-display": [
+                              "20px",
+                              {
+                                      "lineHeight": "1",
+                                      "letterSpacing": "-0.01em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-xl": [
+                              "48px",
+                              {
+                                      "lineHeight": "1.1",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+      </script>
+<style>
+        /* CSS Grid Pattern for structural feel */
+        .bg-grid-pattern {
+            background-size: 24px 24px;
+            background-image: 
+                linear-gradient(to right, rgba(226, 232, 240, 0.5) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(226, 232, 240, 0.5) 1px, transparent 1px);
+        }
+        
+        .hazard-stripes {
+            background-image: repeating-linear-gradient(
+                45deg,
+                var(--tw-colors-secondary-container) 0,
+                var(--tw-colors-secondary-container) 10px,
+                var(--tw-colors-secondary) 10px,
+                var(--tw-colors-secondary) 20px
+            );
+        }
+      </style>
+</head>
+<body class="bg-surface text-on-surface font-body-md antialiased min-h-screen flex flex-col relative overflow-x-hidden selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- TopNavBar -->
+<header class="w-full top-0 sticky z-50 bg-surface-container-lowest dark:bg-tertiary-container border-b border-outline-variant dark:border-on-tertiary-container">
+<div class="flex justify-between items-center h-20 px-gutter max-w-container-max mx-auto">
+<!-- Brand -->
+<a class="font-headline-lg text-headline-lg font-bold text-primary dark:text-on-primary-fixed tracking-tight" href="#">Razant Services Limited</a>
+<!-- Navigation Links (Desktop) -->
+<nav class="hidden md:flex items-center space-x-8">
+<a class="font-label-caps text-label-caps text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200 uppercase" href="#">Home</a>
+<a class="font-label-caps text-label-caps text-secondary border-b-2 border-secondary pb-1 uppercase" href="#">Services</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200 uppercase" href="#">Projects</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200 uppercase" href="#">About</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200 uppercase" href="#">Contact</a>
+</nav>
+<!-- Trailing Actions -->
+<div class="flex items-center space-x-4">
+<button class="hidden md:flex items-center justify-center bg-transparent border border-outline-variant text-on-surface font-label-caps text-label-caps px-6 py-3 uppercase hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-200">
+<span class="material-symbols-outlined mr-2 text-lg">search</span>
+</button>
+<button class="bg-primary text-on-primary font-label-caps text-label-caps px-8 py-3 uppercase hover:opacity-80 scale-95 transition-all shadow-[4px_4px_0px_rgba(15,23,42,0.05)] border border-transparent">
+                    Get Quote
+                </button>
+<button class="md:hidden text-on-surface">
+<span class="material-symbols-outlined text-2xl">menu</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-grow w-full relative">
+<!-- Hero Section -->
+<section class="relative w-full h-[60vh] min-h-[500px] border-b border-outline-variant flex items-end">
+<!-- Background Image -->
+<div class="absolute inset-0 z-0">
+<img alt="Pipeline Maintenance" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AP1WRLuiIr_Dg2DbC2Q-0hony4APHZf8ZXtOcWyauTxgQ7_HgHwSAxT8CjUZG2N0YO3VdMSjSU5T1gvCO5MD1PM5ebVqsLnP6izWnjVnLkAXqoiLD8YelcDW0MTKb0c4vMA78la_sfJPqQHBYjxDh8zZE3qbEkEhl9nnFki1NR8VEnO1qJpEJkflWEWjX4S_abJ_ZrVx02cCZChuCEDYCrHA4p3p07UxkIQgSMc3DMaIOa0ndWQpq4VLp5Xf_U2k">
+<div class="absolute inset-0 bg-gradient-to-t from-primary-container/90 via-primary-container/50 to-transparent"></div>
+</div>
+<!-- Content Grid Container -->
+<div class="relative z-10 w-full max-w-container-max mx-auto px-gutter pb-16 grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<div class="md:col-span-8 lg:col-span-7 flex flex-col gap-unit">
+<div class="inline-flex items-center gap-2 mb-2">
+<span class="font-label-caps text-label-caps text-secondary-fixed uppercase tracking-widest">Service Division</span>
+<div class="h-px w-8 bg-secondary-fixed"></div>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-primary">Pipeline Integrity &amp; Management</h1>
+<p class="font-body-md text-body-md text-on-primary-container mt-4 max-w-xl">
+                        Comprehensive structural evaluation, real-time monitoring, and proactive maintenance protocols designed to ensure the operational safety and longevity of critical pipeline infrastructure.
+                    </p>
+</div>
+<!-- Status Widget -->
+<div class="md:col-span-4 lg:col-span-3 lg:col-start-10 hidden md:flex flex-col justify-end">
+<div class="bg-surface-container-lowest/10 backdrop-blur-md border border-outline-variant/30 p-6 flex flex-col gap-4">
+<div class="flex justify-between items-center border-b border-outline-variant/30 pb-2">
+<span class="font-label-caps text-label-caps text-on-primary/70 uppercase">System Status</span>
+<span class="flex items-center gap-1 font-label-caps text-label-caps text-secondary-fixed">
+<span class="material-symbols-outlined text-[16px] animate-pulse">sensors</span> Live
+                            </span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-metric-display text-metric-display text-on-primary">ISO 9001:2015</span>
+<span class="font-body-sm text-body-sm text-on-primary-container">Certified Integrity Protocols</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Content Area -->
+<div class="w-full max-w-container-max mx-auto px-gutter py-margin grid grid-cols-1 lg:grid-cols-12 gap-gutter bg-grid-pattern relative">
+<!-- Left Column: Navigation / Metadata -->
+<aside class="hidden lg:block lg:col-span-3 sticky top-32 self-start border border-outline-variant bg-surface-container-lowest p-6 shadow-[4px_4px_0px_rgba(15,23,42,0.05)]">
+<h3 class="font-label-caps text-label-caps text-on-surface-variant uppercase border-b border-outline-variant pb-4 mb-4">Service Modules</h3>
+<nav class="flex flex-col gap-2">
+<a class="font-body-sm text-body-sm text-on-surface font-semibold bg-surface-container-low px-4 py-2 border-l-2 border-secondary flex justify-between items-center group" href="#integrity">
+                        Integrity Services
+                        <span class="material-symbols-outlined text-[16px] text-secondary opacity-0 group-hover:opacity-100 transition-opacity">chevron_right</span>
+</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-4 py-2 border-l-2 border-transparent transition-colors flex justify-between items-center group" href="#technology">
+                        Technology Integration
+                        <span class="material-symbols-outlined text-[16px] opacity-0 group-hover:opacity-100 transition-opacity">chevron_right</span>
+</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low px-4 py-2 border-l-2 border-transparent transition-colors flex justify-between items-center group" href="#safety">
+                        Safety Standards
+                        <span class="material-symbols-outlined text-[16px] opacity-0 group-hover:opacity-100 transition-opacity">chevron_right</span>
+</a>
+</nav>
+</aside>
+<!-- Right Column: Detail Sections -->
+<div class="lg:col-span-9 flex flex-col gap-12">
+<!-- Section 1: Integrity Services (Bento Grid) -->
+<section class="scroll-mt-32" id="integrity">
+<header class="mb-6 flex items-baseline gap-4 border-b border-outline-variant pb-2">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Integrity Services</h2>
+<span class="font-label-caps text-label-caps text-secondary uppercase">01</span>
+</header>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Card 1 -->
+<div class="border border-outline-variant bg-surface-container-lowest p-6 flex flex-col gap-4 shadow-[4px_4px_0px_rgba(15,23,42,0.05)] hover:-translate-y-1 transition-transform">
+<div class="w-12 h-12 bg-primary-container text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined" data-weight="fill">troubleshoot</span>
+</div>
+<h3 class="font-metric-display text-metric-display text-on-surface">Non-Destructive Testing</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex-grow">
+                                Advanced NDT methodologies including ultrasonic, radiographic, and magnetic particle inspection to detect structural anomalies without interrupting operations.
+                            </p>
+<div class="mt-auto border-t border-outline-variant pt-4 flex justify-between items-center">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Methodology</span>
+<span class="font-label-caps text-label-caps text-secondary font-bold">UT/RT/MPI</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="border border-outline-variant bg-surface-container-lowest p-6 flex flex-col gap-4 shadow-[4px_4px_0px_rgba(15,23,42,0.05)] hover:-translate-y-1 transition-transform">
+<div class="w-12 h-12 bg-primary-container text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined" data-weight="fill">water_drop</span>
+</div>
+<h3 class="font-metric-display text-metric-display text-on-surface">Corrosion Monitoring</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex-grow">
+                                Deployment of intelligent pigging and external coating assessments to monitor and mitigate internal and external corrosion rates.
+                            </p>
+<div class="mt-auto border-t border-outline-variant pt-4 flex justify-between items-center">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Status</span>
+<span class="font-label-caps text-label-caps text-secondary font-bold">Active</span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="border border-outline-variant bg-surface-container-lowest p-6 flex flex-col gap-4 shadow-[4px_4px_0px_rgba(15,23,42,0.05)] hover:-translate-y-1 transition-transform">
+<div class="w-12 h-12 bg-primary-container text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined" data-weight="fill">leak_add</span>
+</div>
+<h3 class="font-metric-display text-metric-display text-on-surface">Leak Detection</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex-grow">
+                                Precision acoustic and continuous mass balance systems engineered for rapid identification of microscopic pressure variances.
+                            </p>
+<div class="mt-auto border-t border-outline-variant pt-4 flex justify-between items-center">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Response</span>
+<span class="font-label-caps text-label-caps text-error font-bold">&lt; 5 mins</span>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full mt-auto bg-primary-container dark:bg-black border-t border-outline-variant">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 px-gutter py-12 max-w-container-max mx-auto">
+<!-- Brand Column -->
+<div class="flex flex-col gap-4">
+<span class="font-headline-lg text-headline-lg text-on-primary font-bold">Razant Services Limited</span>
+<p class="font-body-sm text-body-sm text-on-primary-container">
+                    Engineering excellence and structural integrity for large-scale industrial projects.
+                </p>
+</div>
+<!-- Links Column 1 -->
+<div class="flex flex-col gap-2">
+<h4 class="font-label-caps text-label-caps text-on-tertiary-container uppercase mb-2">Services</h4>
+<a class="font-body-sm text-body-sm text-on-primary-container hover:text-on-primary hover:underline transition-all" href="#">Oilfield Services</a>
+<a class="font-body-sm text-body-sm text-secondary-fixed transition-all font-semibold" href="#">Pipeline Integrity</a>
+<a class="font-body-sm text-body-sm text-on-primary-container hover:text-on-primary hover:underline transition-all" href="#">Technical Training</a>
+</div>
+<!-- Links Column 2 -->
+<div class="flex flex-col gap-2">
+<h4 class="font-label-caps text-label-caps text-on-tertiary-container uppercase mb-2">Company</h4>
+<a class="font-body-sm text-body-sm text-on-primary-container hover:text-on-primary hover:underline transition-all" href="#">HSE Policy</a>
+<a class="font-body-sm text-body-sm text-on-primary-container hover:text-on-primary hover:underline transition-all" href="#">Careers</a>
+<a class="font-body-sm text-body-sm text-on-primary-container hover:text-on-primary hover:underline transition-all" href="#">Privacy</a>
+</div>
+<!-- Contact -->
+<div class="flex flex-col gap-4">
+<button class="bg-secondary text-on-secondary font-label-caps text-label-caps px-6 py-3 uppercase hover:opacity-90 transition-opacity border border-transparent self-start w-full md:w-auto text-center">
+                    Technical Inquiry
+                </button>
+</div>
+</div>
+<div class="border-t border-on-primary-container/20 py-6 px-gutter">
+<p class="font-body-sm text-body-sm text-on-primary-container text-center md:text-left max-w-container-max mx-auto">© 2024 Razant Services Limited. All Rights Reserved. ISO 9001 Certified.</p>
+</div>
+</footer>
+
+
+</body></html>

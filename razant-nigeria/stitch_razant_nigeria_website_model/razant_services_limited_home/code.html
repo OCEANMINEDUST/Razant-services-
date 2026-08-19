@@ -1,0 +1,421 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Razant Services Limited | Oil Servicing &amp; Technical Training</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Tailwind Configuration -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-tertiary-fixed": "#0b1c30",
+                    "tertiary-fixed": "#d3e4fe",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-container": "#eceef0",
+                    "surface-variant": "#e0e3e5",
+                    "surface": "#f7f9fb",
+                    "secondary-fixed": "#ffdbca",
+                    "on-secondary-container": "#5c2400",
+                    "outline": "#76777d",
+                    "on-error-container": "#93000a",
+                    "outline-variant": "#c6c6cd",
+                    "on-surface": "#191c1e",
+                    "on-primary-fixed-variant": "#3f465c",
+                    "inverse-on-surface": "#eff1f3",
+                    "background": "#f7f9fb",
+                    "on-error": "#ffffff",
+                    "on-surface-variant": "#45464d",
+                    "tertiary": "#000000",
+                    "on-secondary": "#ffffff",
+                    "primary-fixed": "#dae2fd",
+                    "on-secondary-fixed": "#341100",
+                    "surface-container-low": "#f2f4f6",
+                    "surface-container-highest": "#e0e3e5",
+                    "secondary": "#9d4300",
+                    "primary-fixed-dim": "#bec6e0",
+                    "on-background": "#191c1e",
+                    "surface-dim": "#d8dadc",
+                    "secondary-fixed-dim": "#ffb690",
+                    "inverse-surface": "#2d3133",
+                    "on-primary-fixed": "#131b2e",
+                    "secondary-container": "#fd761a",
+                    "surface-container-high": "#e6e8ea",
+                    "on-primary-container": "#7c839b",
+                    "surface-bright": "#f7f9fb",
+                    "error-container": "#ffdad6",
+                    "tertiary-container": "#0b1c30",
+                    "on-tertiary-fixed-variant": "#38485d",
+                    "primary": "#000000",
+                    "inverse-primary": "#bec6e0",
+                    "primary-container": "#131b2e",
+                    "on-tertiary": "#ffffff",
+                    "tertiary-fixed-dim": "#b7c8e1",
+                    "error": "#ba1a1a",
+                    "on-secondary-fixed-variant": "#783200",
+                    "surface-tint": "#565e74",
+                    "on-primary": "#ffffff",
+                    "on-tertiary-container": "#75859d"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "unit": "8px",
+                    "gutter": "24px",
+                    "container-max": "1280px",
+                    "margin": "32px"
+            },
+            "fontFamily": {
+                    "metric-display": ["Montserrat"],
+                    "body-md": ["Inter"],
+                    "headline-xl": ["Montserrat"],
+                    "headline-lg": ["Montserrat"],
+                    "label-caps": ["JetBrains Mono"],
+                    "body-sm": ["Inter"]
+            },
+            "fontSize": {
+                    "metric-display": ["20px", {"lineHeight": "1", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "headline-xl": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                    "label-caps": ["12px", {"lineHeight": "1", "letterSpacing": "0.1em", "fontWeight": "500"}],
+                    "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .technical-shadow {
+            box-shadow: 4px 4px 0px rgba(15, 23, 42, 0.05);
+        }
+        .hazard-pattern {
+            background: repeating-linear-gradient(
+                45deg,
+                #fd761a,
+                #fd761a 10px,
+                #9d4300 10px,
+                #9d4300 20px
+            );
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md selection:bg-secondary-fixed selection:text-on-secondary-container">
+<!-- Top Navigation Bar -->
+<nav class="bg-surface border-b border-outline-variant sticky top-0 z-50">
+<div class="flex justify-between items-center w-full px-margin max-w-container-max mx-auto h-20">
+<a class="font-headline-lg text-headline-lg font-bold text-primary" href="/">Razant Services Limited</a>
+<!-- Desktop Links -->
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-body-md text-body-md text-secondary border-b-2 border-secondary pb-1" href="#">Home</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors duration-200" href="#">Services</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors duration-200" href="#">Training</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors duration-200" href="#">About Us</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors duration-200" href="#">Contact</a>
+</div>
+<button class="bg-primary text-on-primary px-6 py-3 font-label-caps uppercase tracking-widest hover:bg-secondary transition-colors duration-300">
+                Get a Quote
+            </button>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative w-full h-[870px] overflow-hidden">
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCiFf268u3K8CxOSaxQc36m0KUqSANO_iXY2b52aC1H0vmFCgfW90hEHRS_WmuKHtKFPhUQTBWRawHmyOUp63tJHQpQxFycJqaHS6v2h3RJDmJJVsQ07kjL90VakJBEDnA_2aRXdAHERzKtOYVbBNjfIIKRwjWreS9gh78t2IDtVAwDUBvAYtNl0M92cj0FBT8q6GcrihvWyWLGklUCmWThqdihcH-byUlvibBPvI4s79tfLMooovarvA')"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-primary/80 to-transparent"></div>
+</div>
+<div class="relative z-10 h-full flex items-center px-margin max-w-container-max mx-auto">
+<div class="max-w-2xl text-on-primary">
+<span class="font-label-caps text-secondary-container mb-4 block uppercase">Energy Solutions &amp; Development</span>
+<h1 class="font-headline-xl text-headline-xl mb-6 leading-tight">Engineering Excellence: Delivering Reliable EPCIC Solutions Across Nigeria’s Energy Sector</h1>
+<p class="font-body-md text-body-md mb-8 text-on-primary/90 max-w-lg">
+                    Razant Services Limited is a dynamic indigenous Nigerian company specializing in Engineering, Procurement, Installation, Commissioning (EPIC) and Technical Training for the oil and gas industry.
+                </p>
+<div class="flex gap-4">
+<button class="bg-secondary-container text-on-secondary-container px-8 py-4 font-label-caps uppercase hover:bg-secondary transition-all technical-shadow">
+                        Our Oilfield Services
+                    </button>
+<button class="border border-on-primary text-on-primary px-8 py-4 font-label-caps uppercase hover:bg-on-primary hover:text-primary transition-all">
+                        Technical Training
+                    </button>
+</div>
+</div>
+</div>
+<!-- Scroll Indicator -->
+<div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+<span class="material-symbols-outlined text-on-primary text-3xl">keyboard_double_arrow_down</span>
+</div>
+</header>
+<!-- Mission & Vision Section -->
+<section class="py-16 bg-surface-container-lowest">
+<div class="max-w-container-max mx-auto px-margin grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<div class="bg-surface p-10 border border-outline-variant technical-shadow hover:border-secondary transition-colors">
+<div class="flex items-center gap-4 mb-6">
+<div class="w-12 h-12 bg-secondary-container flex items-center justify-center rounded-full">
+<span class="material-symbols-outlined text-on-secondary-container">flag</span>
+</div>
+<h2 class="font-headline-lg text-2xl text-primary">Our Mission</h2>
+</div>
+<p class="font-body-md text-on-surface-variant leading-relaxed">
+        To provide superior Engineering, Procurement, Installation, and Commissioning solutions while developing exceptional technical talent, driving sustainable growth, and delivering outstanding value to stakeholders in the energy sector.
+    </p>
+</div>
+<div class="bg-surface p-10 border border-outline-variant technical-shadow hover:border-secondary transition-colors">
+<div class="flex items-center gap-4 mb-6">
+<div class="w-12 h-12 bg-secondary-container flex items-center justify-center rounded-full">
+<span class="material-symbols-outlined text-on-secondary-container">visibility</span>
+</div>
+<h2 class="font-headline-lg text-2xl text-primary">Our Vision</h2>
+</div>
+<p class="font-body-md text-on-surface-variant leading-relaxed">
+        To be recognized as Nigeria’s foremost integrated oilfield services company, setting the benchmark for engineering excellence, innovation, and operational reliability across Africa.
+    </p>
+</div>
+</div>
+</section>
+<!-- Key Stats Section -->
+<section class="bg-primary text-on-primary py-16">
+<div class="max-w-container-max mx-auto px-margin grid grid-cols-1 md:grid-cols-3 gap-gutter text-center">
+<div class="group animate-fadeIn"><div class="font-headline-xl text-headline-xl text-secondary-container mb-2" id="stat1">AGILE &amp; INNOVATIVE</div><div class="font-label-caps text-on-primary/70 uppercase tracking-widest">Engineering for the Future</div><div class="h-1 w-12 bg-secondary mx-auto mt-4 transition-all group-hover:w-24"></div></div>
+<div class="group border-y md:border-y-0 md:border-x border-outline-variant/30 py-8 md:py-0 animate-fadeIn"><div class="font-headline-xl text-headline-xl text-secondary-container mb-2" id="stat2">100% OPERATIONAL</div><div class="font-label-caps text-on-primary/70 uppercase tracking-widest">Safety &amp; Reliability Focused</div><div class="h-1 w-12 bg-secondary mx-auto mt-4 transition-all group-hover:w-24"></div></div>
+<div class="group animate-fadeIn"><div class="font-headline-xl text-headline-xl text-secondary-container mb-2" id="stat3">EXPERT TEAM</div><div class="font-label-caps text-on-primary/70 uppercase tracking-widest">Certified Technical Specialists</div><div class="h-1 w-12 bg-secondary mx-auto mt-4 transition-all group-hover:w-24"></div></div>
+</div>
+</section>
+<!-- Services Overview -->
+<section class="py-24 bg-surface-container-lowest">
+<div class="max-w-container-max mx-auto px-margin">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+<div class="max-w-xl">
+<span class="font-label-caps text-secondary uppercase mb-2 block">Our Expertise</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Advanced Energy &amp; Technical Solutions</h2>
+</div>
+<p class="font-body-md text-on-surface-variant max-w-sm">
+                    Strategic oilfield support and specialized training programs designed to meet the rigorous demands of the global energy sector.
+                </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Card 1 -->
+<div class="bg-surface border border-outline-variant p-8 group hover:bg-primary transition-all duration-300 technical-shadow flex flex-col animate-fadeIn">
+<div class="w-16 h-16 bg-surface-container flex items-center justify-center mb-8 group-hover:bg-secondary-container transition-colors">
+<span class="material-symbols-outlined text-4xl text-primary group-hover:text-on-secondary-container">engineering</span>
+</div>
+<h3 class="font-headline-lg text-2xl text-primary mb-4 group-hover:text-on-primary transition-colors">EPCIC Solutions</h3>
+<p class="font-body-md text-on-surface-variant mb-8 group-hover:text-on-primary/80 transition-colors">
+                        Comprehensive Engineering, Procurement, Construction, Installation and Commissioning support across upstream and midstream operations.
+                    </p>
+<div class="mt-auto">
+<a class="inline-flex items-center gap-2 font-label-caps text-secondary group-hover:text-secondary-container uppercase transition-colors" href="#">
+                            Explore Services <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface border border-outline-variant p-8 group hover:bg-primary transition-all duration-300 technical-shadow flex flex-col animate-fadeIn">
+<div class="w-16 h-16 bg-surface-container flex items-center justify-center mb-8 group-hover:bg-secondary-container transition-colors">
+<span class="material-symbols-outlined text-4xl text-primary group-hover:text-on-secondary-container">school</span>
+</div>
+<h3 class="font-headline-lg text-2xl text-primary mb-4 group-hover:text-on-primary transition-colors">Technical Training</h3>
+<p class="font-body-md text-on-surface-variant mb-8 group-hover:text-on-primary/80 transition-colors">
+                        Specialized vocational and advanced engineering courses for oil and gas professionals, focused on safety and operational excellence.
+                    </p>
+<div class="mt-auto">
+<a class="inline-flex items-center gap-2 font-label-caps text-secondary group-hover:text-secondary-container uppercase transition-colors" href="#">
+                            View Courses <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface border border-outline-variant p-8 group hover:bg-primary transition-all duration-300 technical-shadow flex flex-col animate-fadeIn">
+<div class="w-16 h-16 bg-surface-container flex items-center justify-center mb-8 group-hover:bg-secondary-container transition-colors">
+<span class="material-symbols-outlined text-4xl text-primary group-hover:text-on-secondary-container">plumbing</span>
+</div>
+<h3 class="font-headline-lg text-2xl text-primary mb-4 group-hover:text-on-primary transition-colors">Valves &amp; Calibration</h3>
+<p class="font-body-md text-on-surface-variant mb-8 group-hover:text-on-primary/80 transition-colors">
+                        Expert valve maintenance, repair, and precision calibration services ensuring operational safety and efficiency across facilities.
+                    </p>
+<div class="mt-auto">
+<a class="inline-flex items-center gap-2 font-label-caps text-secondary group-hover:text-secondary-container uppercase transition-colors" href="#">
+                            Learn More <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Relevant Visual Context -->
+<div class="mt-12 h-64 w-full bg-cover bg-center border border-outline-variant grayscale hover:grayscale-0 transition-all duration-700" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAa4g0U7jm5tcgExGdXqELPDybV6ftURk3YApD5RBkCw8_wdJ8O6Lif7C680MaNpFImSHsrSA1gr_W3RgyOu5E5Oe_o8W3930Q676sFxFvS5E_NItGNf0qF4gE2vscH40XJZITyXutAaS2H29HLjfcZrLpQ2pj9-KAz7IjU6tuJwyZOg5eD2oPlN2izt3XOpuE82S_Asp-2vVK8UGaU8q30CqZmV3Y4Oc_D04SWZb8JpQ1m5oGIZF6c9ysPdSiCVO5scCQtQb9vOT1K')"></div>
+</div>
+</section>
+<!-- About Preview Section -->
+<section class="py-24 bg-surface">
+<div class="max-w-container-max mx-auto px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="relative">
+<div class="w-full aspect-[4/3] bg-cover bg-center border border-outline-variant" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBTZ4nOtK78b4prC7mVzK2uoVGvWKqLtOeBu7tXTSV3l6DfeCPFzLophLcn8-SKn8fG4Vi5ttCAsO61oyLi0usxiSFN0KS0AHw4BlUKvWOIO5nD7VN-OJmdpfg7hBGLi1p_OCAb1jM_x6VSaj1CIF2BLmsADiZhYXP493QItOpaRnBDaagysnxsLAbcxLehOk-341cWPucH43uWYOrSMRWROOHt5mfCIqPvOJpUIwd7aG5Y2Zu6ivJKUgSkffx104Am9IZB3lkR5re9')"></div>
+<!-- Technical Detail Overlay -->
+<div class="absolute -bottom-8 -right-8 bg-primary p-8 hidden md:block max-w-[240px] border border-secondary">
+<div class="font-label-caps text-secondary-container mb-2 uppercase">Industry Leader</div>
+<div class="font-metric-display text-on-primary text-xl mb-4">Top-Tier Training Center</div>
+<div class="h-1 w-full hazard-pattern"></div>
+</div>
+</div>
+<div>
+<span class="font-label-caps text-secondary uppercase mb-4 block">About Razant Services</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mb-6">Leading the Energy Transformation</h2>
+<p class="font-body-md text-on-surface-variant mb-6">
+                        Razant Services Limited stands at the forefront of the nation's oil and gas sector, providing specialized servicing solutions and professional development programs that bridge the technical gap in Nigeria's energy industry.
+                    </p>
+<p class="font-body-md text-on-surface-variant mb-8">
+                        We are committed to nurturing the next generation of energy experts. Our state-of-the-art training facilities provide hands-on experience with modern oilfield technology, ensuring our graduates and partners operate at international safety and efficiency standards.
+                    </p>
+<div class="grid grid-cols-2 gap-8 mb-8">
+<div>
+<div class="flex items-center gap-2 mb-2">
+<span class="material-symbols-outlined text-secondary">verified_user</span>
+<span class="font-bold">Energy Expertise</span>
+</div>
+<p class="text-body-sm text-on-surface-variant">Deep technical knowledge of Nigerian oilfield operations.</p>
+</div>
+<div>
+<div class="flex items-center gap-2 mb-2">
+<span class="material-symbols-outlined text-secondary">workspace_premium</span>
+<span class="font-bold">Global Training</span>
+</div>
+<p class="text-body-sm text-on-surface-variant">International curriculum tailored for local challenges.</p>
+</div>
+</div>
+<button class="border-2 border-primary text-primary px-8 py-3 font-label-caps uppercase hover:bg-primary hover:text-on-primary transition-all">
+                        Our Mission &amp; Values
+                    </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Teaser / CTA -->
+<section class="py-24 relative overflow-hidden">
+<!-- Background decorative grid -->
+<div class="absolute inset-0 opacity-5 pointer-events-none" style="background-image: linear-gradient(#191c1e 1px, transparent 1px), linear-gradient(90deg, #191c1e 1px, transparent 1px); background-size: 40px 40px;"></div>
+<div class="max-w-4xl mx-auto px-margin text-center relative z-10">
+<h2 class="font-headline-xl text-headline-xl text-primary mb-6">Partner with Energy Leaders</h2>
+<p class="font-body-md text-on-surface-variant mb-12 max-w-2xl mx-auto">
+                From specialized oilfield maintenance to comprehensive corporate training programs, Razant is your technical partner in Nigeria's oil and gas sector.
+            </p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<button class="bg-secondary-container text-on-secondary-container px-12 py-5 font-label-caps uppercase tracking-widest text-lg hover:bg-secondary transition-all technical-shadow flex items-center justify-center gap-3">
+                    Contact Our Experts <span class="material-symbols-outlined">call</span>
+</button>
+<button class="bg-primary text-on-primary px-12 py-5 font-label-caps uppercase tracking-widest text-lg hover:bg-on-surface-variant transition-all flex items-center justify-center gap-3">
+                    Training Enrollment <span class="material-symbols-outlined">fact_check</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<section class="py-16 bg-surface-container-low border-t border-outline-variant/30">
+  <div class="max-w-container-max mx-auto px-margin">
+    <div class="text-center mb-12">
+      <span class="font-label-caps text-secondary uppercase mb-2 block">Our Partners</span>
+      <h2 class="font-headline-lg text-2xl text-primary">Trusted by Industry Leaders</h2>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-8 items-center justify-items-center hover:opacity-100 transition-opacity">
+      <div class="h-16 flex items-center justify-center">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAA9VSWSXG0v4xgwq_xvFQiLw1v9QGu7u_MCd19N-yKA5jMDr1bvDaTWWUo5ib_Uq0H12FwHLvxwCn6ktjCo_1vFKmMO21ujdytAKtu0RvukEKiS7zJ4ADaTlZSr4KAaOVPA_a76y9134SXGl5r7WayiELI2SjVkOC-K2nHnpFV3oHKr_EhePl-n0yxhQV00RPd4zOGLsUt_rOR9cxeFuT41m_28GjMAqMJfWXvdoeWdE9Oj-8HMMrL-_T2GdAlr3eOkzc" alt="NNPC Logo" class="max-h-full w-auto object-contain">
+      </div>
+      <div class="h-16 flex items-center justify-center">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzgFNiUXKSUl8ddlXSQGmjgsofkAapvigSd68PEl1dErLQQKt0fF2_2ZIBhvcMAEm21mZwGndG5IXSWuKr9L6Ac94SVJOf6bsx1mU-eTujc9xSFc6fzL_h862TOENeZOnRQapRUYrbR_kb-SkYoPkJVQsTwsZbT0DlSnVAr9SgxPETq4rlmi6asMRxATaxyLXEixIZCZ22wgCfAcwNC6_7yqcPokTgoxF_2bHKy-x46aURY58xrcXPAk08evCFW6YUA5A" alt="Eni Logo" class="max-h-full w-auto object-contain">
+      </div>
+      <div class="h-16 flex items-center justify-center">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZCj9em8ukPLe1trH-ZRyx49FcuGW3FLZxGJL1cXlNF21DnCNS6gNm8bBt507_XB8aBk8t9T0pwN7s5OGsCRxr25N8OjtPWxDUV3XQ6zPGsnr-NdNn9muSzfJUjJZjeUA0mcpKzF5M_FabKYU_A8ZSWYKn2qkVZFcOaeSzlBr8hwLxjRozq0rQHuluogQ-KzQFOdavJbA4rLGmD2k5XeicvTsPNT7QQtGmM97e0WpxuGoVT0fCq-x53b25VoJ9cCDDJ_8" alt="Aradel Logo" class="max-h-full w-auto object-contain">
+      </div>
+      <div class="h-16 flex items-center justify-center">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuANauN7aFyTskXk1mU4IK0f_ijRmaHeIZa1aMH1FvgOLRoq7ojuqb4V8VOiBR1sYFmz-gu3re5MnJwupNvD7Eew78O3QbZn7EKi7OB3YVpdCMcupe5u-o0RTbmZCgSfbqrKW3nhHeiGtb1N3whgktDFUfGDYHPPsqlmvQeWIXu-vPiBoxnV46wkIlYvbiGiEpPlh1IVHiBmFg4KmNsCgUjhWWtSxx93gFxRHAHXHBJgOeauVmSV6-hOQ_jl7pUj8-hUgsE" alt="TotalEnergies Logo" class="max-h-full w-auto object-contain">
+      </div>
+      <div class="h-16 flex items-center justify-center">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBc750xD22xcrSWjgUfz2xbeP37v1KJo5PBFpoDoDrqt_tJSeBpuS63dZEEjL8ojCeS8ctmIAwH8jGyRZkCh8tafesADOcAT1mD9fjZmFwqIVi21IF5AM6vaGF6oMMp1JVD_6WYpuQokDkMJVBr31ChrZvnDCzR1MiF2h05OQmJGh17jSW7uiVOMqlWaw8KRzFG2DW4exqEbbyEtlflWyizqmleV0qoFO4vozve5phzxFYe8EvdueSn_wW2meFZ6tDAX1I" alt="Nigeria LNG Logo" class="max-h-full w-auto object-contain">
+      </div>
+    </div>
+  </div>
+</section><footer class="bg-tertiary-container text-on-tertiary border-t border-outline-variant">
+<div class="w-full py-16 px-margin max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-4 gap-gutter">
+<div class="col-span-1 md:col-span-1">
+<div class="font-headline-lg text-headline-lg font-bold text-on-tertiary mb-6">Razant Services Limited</div>
+<p class="font-body-sm text-on-tertiary-container mb-6">
+                    Powering Nigeria's growth through technical excellence in oil servicing and professional training.
+                </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 border border-on-tertiary-container flex items-center justify-center hover:bg-secondary transition-colors" href="#">
+<span class="material-symbols-outlined text-sm">share</span>
+</a>
+<a class="w-10 h-10 border border-on-tertiary-container flex items-center justify-center hover:bg-secondary transition-colors" href="#">
+<span class="material-symbols-outlined text-sm">public</span>
+</a>
+</div>
+</div>
+<div>
+<h4 class="font-label-caps text-tertiary-fixed mb-6 uppercase">Quick Links</h4>
+<ul class="space-y-4">
+<li class=""><a class="font-body-sm text-on-tertiary-container hover:text-secondary transition-colors" href="#">Oilfield Services</a></li>
+<li class=""><a class="font-body-sm text-on-tertiary-container hover:text-secondary transition-colors" href="#">Technical Training</a></li>
+<li class=""><a class="font-body-sm text-on-tertiary-container hover:text-secondary transition-colors" href="#">Projects</a></li>
+<li class=""><a class="font-body-sm text-on-tertiary-container hover:text-secondary transition-colors" href="#">Safety Standards</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label-caps text-tertiary-fixed mb-6 uppercase">Company</h4>
+<ul class="space-y-4">
+<li class=""><a class="font-body-sm text-on-tertiary-container hover:text-secondary transition-colors" href="#">About Us</a></li>
+<li class=""><a class="font-body-sm text-on-tertiary-container hover:text-secondary transition-colors" href="#">Careers</a></li>
+<li class=""><a class="font-body-sm text-on-tertiary-container hover:text-secondary transition-colors" href="#">Sustainability</a></li>
+<li class=""><a class="font-body-sm text-on-tertiary-container hover:text-secondary transition-colors" href="#">Privacy Policy</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label-caps text-tertiary-fixed mb-6 uppercase">Contact</h4>
+<p class="font-body-sm text-on-tertiary-container mb-4"><span style="color: rgb(124, 131, 155); font-size: 14px; background-color: rgb(19, 27, 46);">Lagos, Nigeria</span><br style="--tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; color: rgb(124, 131, 155); font-size: 14px; background-color: rgb(19, 27, 46);"><span style="color: rgb(124, 131, 155); font-size: 14px; background-color: rgb(19, 27, 46);">No. 4 Ahmed Musa street ,off lekki Epe Expressway,Ibeju Lekki</span></p>
+<p class="font-body-sm text-on-tertiary-container mb-4">
+                    info@razantservices.com<br>
+                    +2348155116939
+                </p>
+</div>
+</div>
+<div class="w-full px-margin py-8 max-w-container-max mx-auto border-t border-on-tertiary-fixed-variant/20 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="font-body-sm text-on-tertiary-container">© 2024 Razant Services Limited. All Rights Reserved.</p>
+<div class="flex gap-8">
+<a class="font-body-sm text-on-tertiary-container hover:underline" href="#">Privacy Policy</a>
+<a class="font-body-sm text-on-tertiary-container hover:underline" href="#">Sitemap</a>
+</div>
+</div>
+</footer>
+<script>
+        // Simple Intersection Observer for stat counters
+        const observerOptions = {
+            threshold: 0.5
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-fadeIn');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.group').forEach(stat => {
+            observer.observe(stat);
+        });
+    </script>
+
+
+
+
+
+
+</body></html>

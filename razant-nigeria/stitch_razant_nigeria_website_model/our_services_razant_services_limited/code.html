@@ -1,0 +1,536 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Services | Razant Services Limited</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-tertiary-fixed": "#0b1c30",
+                    "tertiary-fixed": "#d3e4fe",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-container": "#eceef0",
+                    "surface-variant": "#e0e3e5",
+                    "surface": "#f7f9fb",
+                    "secondary-fixed": "#ffdbca",
+                    "on-secondary-container": "#5c2400",
+                    "outline": "#76777d",
+                    "on-error-container": "#93000a",
+                    "outline-variant": "#c6c6cd",
+                    "on-surface": "#191c1e",
+                    "on-primary-fixed-variant": "#3f465c",
+                    "inverse-on-surface": "#eff1f3",
+                    "background": "#f7f9fb",
+                    "on-error": "#ffffff",
+                    "on-surface-variant": "#45464d",
+                    "tertiary": "#000000",
+                    "on-secondary": "#ffffff",
+                    "primary-fixed": "#dae2fd",
+                    "on-secondary-fixed": "#341100",
+                    "surface-container-low": "#f2f4f6",
+                    "surface-container-highest": "#e0e3e5",
+                    "secondary": "#9d4300",
+                    "primary-fixed-dim": "#bec6e0",
+                    "on-background": "#191c1e",
+                    "surface-dim": "#d8dadc",
+                    "secondary-fixed-dim": "#ffb690",
+                    "inverse-surface": "#2d3133",
+                    "on-primary-fixed": "#131b2e",
+                    "secondary-container": "#fd761a",
+                    "surface-container-high": "#e6e8ea",
+                    "on-primary-container": "#7c839b",
+                    "surface-bright": "#f7f9fb",
+                    "error-container": "#ffdad6",
+                    "tertiary-container": "#0b1c30",
+                    "on-tertiary-fixed-variant": "#38485d",
+                    "primary": "#000000",
+                    "inverse-primary": "#bec6e0",
+                    "primary-container": "#131b2e",
+                    "on-tertiary": "#ffffff",
+                    "tertiary-fixed-dim": "#b7c8e1",
+                    "error": "#ba1a1a",
+                    "on-secondary-fixed-variant": "#783200",
+                    "surface-tint": "#565e74",
+                    "on-primary": "#ffffff",
+                    "on-tertiary-container": "#75859d"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "unit": "8px",
+                    "gutter": "24px",
+                    "container-max": "1280px",
+                    "margin": "32px"
+            },
+            "fontFamily": {
+                    "metric-display": ["Montserrat"],
+                    "body-md": ["Inter"],
+                    "headline-xl": ["Montserrat"],
+                    "headline-lg": ["Montserrat"],
+                    "headline-lg-mobile": ["Montserrat"],
+                    "label-caps": ["JetBrains Mono"],
+                    "body-sm": ["Inter"]
+            },
+            "fontSize": {
+                    "metric-display": ["20px", {"lineHeight": "1", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "headline-xl": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                    "headline-lg-mobile": ["24px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                    "label-caps": ["12px", {"lineHeight": "1", "letterSpacing": "0.1em", "fontWeight": "500"}],
+                    "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .technical-shadow {
+            box-shadow: 4px 4px 0px rgba(15, 23, 42, 0.05);
+        }
+        .blueprint-grid {
+            background-image: radial-gradient(#e2e8f0 0.5px, transparent 0.5px);
+            background-size: 24px 24px;
+        }
+        .active-nav-border {
+            border-bottom: 2px solid #9d4300;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md selection:bg-secondary-fixed selection:text-on-secondary-container">
+<!-- TopNavBar -->
+<nav class="bg-surface sticky top-0 z-50 border-b border-outline-variant">
+<div class="flex justify-between items-center w-full px-margin max-w-container-max mx-auto h-20">
+<a class="font-headline-lg text-headline-lg font-bold text-primary" href="#">Razant Services Limited</a>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors duration-200" href="#">Home</a>
+<a class="font-body-md text-body-md text-secondary border-b-2 border-secondary pb-1" href="#">Services</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors duration-200" href="#">Projects</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors duration-200" href="#">About Us</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-secondary transition-colors duration-200" href="#">Contact</a>
+</div>
+<button class="bg-primary text-on-primary px-6 py-3 font-label-caps uppercase tracking-wider hover:opacity-80 transition-opacity">
+                Get a Quote
+            </button>
+</div>
+</nav>
+<main class="min-h-screen">
+<!-- Hero Section -->
+<header class="relative py-24 overflow-hidden border-b border-outline-variant bg-surface-container-low blueprint-grid">
+<div class="max-w-container-max mx-auto px-margin relative z-10">
+<div class="max-w-3xl">
+<span class="font-label-caps text-secondary mb-4 block">OUR EXPERTISE</span>
+<h1 class="font-headline-xl text-headline-xl text-on-surface mb-6">
+                        Engineering Excellence for a Growing Nation
+                    </h1>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 leading-relaxed">
+                        Razant Services Limited delivers end-to-end solutions for Nigeria's most complex engineering challenges. From structural design to large-scale infrastructure, we build the foundations of progress.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<a class="bg-secondary text-on-secondary px-8 py-4 font-label-caps uppercase hover:opacity-90 transition-opacity flex items-center gap-2" href="#services-grid">
+                            Explore Services
+                            <span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+</a>
+<button class="border border-primary text-primary px-8 py-4 font-label-caps uppercase hover:bg-primary hover:text-on-primary transition-all">
+                            Download Brochure
+                        </button>
+</div>
+</div>
+</div>
+<!-- Decorative Architectural Line -->
+<div class="absolute right-0 top-0 w-1/3 h-full opacity-5 pointer-events-none hidden lg:block">
+</div>
+</header>
+<!-- Services Section -->
+<section class="py-24 max-w-container-max mx-auto px-margin" id="services-grid">
+<div class="space-y-32">
+<!-- Service 1: Engineering Services -->
+<article class="grid lg:grid-cols-2 gap-gutter items-center group transition-all duration-700 opacity-100 translate-y-0">
+<div class="order-2 lg:order-1 p-8 bg-surface border border-outline-variant technical-shadow">
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-secondary bg-secondary-fixed p-3">architecture</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Engineering Services</h2>
+</div>
+<p class="font-body-md text-on-surface-variant mb-6">
+                            Engineering is more than drawings... lifecycle performance.
+                        </p>
+<div class="mb-8">
+<span class="font-label-caps text-secondary block mb-4">CAPABILITIES</span>
+<ul class="space-y-3">
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Detailed Structural Design &amp; Seismic Analysis</span>
+</li>
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Comprehensive Site Preparation &amp; Earthworks</span>
+</li>
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Deep &amp; Shallow Foundation Engineering</span>
+</li>
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Geotechnical Surveys &amp; Soil Reinforcement</span>
+</li>
+</ul>
+</div>
+<button class="w-full lg:w-auto bg-primary text-on-primary px-8 py-4 font-label-caps uppercase flex items-center justify-center gap-2 hover:bg-secondary transition-colors">
+                            Request Inquiry
+                            <span class="material-symbols-outlined text-[18px]">mail</span>
+</button>
+</div>
+<div class="order-1 lg:order-2 h-[400px] lg:h-[500px] border border-outline-variant overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="A professional close-up shot of an engineering site with blueprints." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCKCcvQIzrSgRHpzH-5Ob_xt7TqpQ2k8hEfWoSo1eELsBi0vUUXOQjWrbTNiooFVuWBW9rrMoJ_DrPnontdKG60m9DvwXwovlhppY2gYCVVeb9jJBCeL3n1UQ77OBp9d2sUDr-eBXB2_eBShZKHwEjosssO7TQ7smbGeblsb_9cHDpMeT2xskIqpxGOQvRbod1qnnDJVYSCVpnclAIQyE24AzAwx-xbhU845pm2ircaTE1PKYNA8v2RkDqqn5EBfHAS6EJKtXyP3Kug')">
+</div>
+</div>
+</article>
+<!-- Service 2: Valves Supply & Maintenance -->
+<article class="grid lg:grid-cols-2 gap-gutter items-center group transition-all duration-700 opacity-100 translate-y-0">
+<div class="h-[400px] lg:h-[500px] border border-outline-variant overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Close-up of industrial valve maintenance and pressure testing, high-precision engineering tools, safety gear, professional industrial setting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCLDx26xk92DLDozKVLLD_QyuC9_9TMe4Pyr3AAeojBvITkjwDKge7CDnxoR5Igw16rmffk3kdr3MHkjGwVSzVIwoIHIDCyUkuCjw8hrFqxdh7Tvd1vCnMHXf2GzQx65HC-3UQTTp23tA1ji1Cu6AZg7L-cDqhUNFGdshngzUpTIutRPWIb2p79zXXi98HWNQ08Xjshi0xq-rMYyNJRvJk-DsDTCh-_fBnUKwmxtrXmifL5Tdsi1huUDQ')">
+</div>
+</div>
+<div class="p-8 bg-surface border border-outline-variant technical-shadow">
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-secondary bg-secondary-fixed p-3">settings</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Valves Supply &amp; Maintenance</h2>
+</div>
+<p class="font-body-md text-on-surface-variant mb-6">
+                            The right valve... dependable valves.
+                        </p>
+<div class="mb-8">
+<span class="font-label-caps text-secondary block mb-4">CAPABILITIES</span>
+<ul class="space-y-3">
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Valve Calibration &amp; Testing</span>
+</li>
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Actuator Maintenance &amp; Repair</span>
+</li>
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Valve Supply &amp; Procurement</span>
+</li>
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Pressure Relief Valve Servicing</span>
+</li>
+</ul>
+</div>
+<button class="w-full lg:w-auto bg-primary text-on-primary px-8 py-4 font-label-caps uppercase flex items-center justify-center gap-2 hover:bg-secondary transition-colors">
+                            Request Inquiry
+                            <span class="material-symbols-outlined text-[18px]">mail</span>
+</button>
+</div>
+</article>
+<!-- Service 3: Pipeline Construction -->
+<article class="grid lg:grid-cols-2 gap-gutter items-center group transition-all duration-700 opacity-100 translate-y-0">
+<div class="order-2 lg:order-1 p-8 bg-surface border border-outline-variant technical-shadow">
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-secondary bg-secondary-fixed p-3">engineering</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Pipeline Construction</h2>
+</div>
+<p class="font-body-md text-on-surface-variant mb-6">
+                            Connecting assets... build for integrity.
+                        </p>
+<div class="mb-8">
+<span class="font-label-caps text-secondary block mb-4">CAPABILITIES</span>
+<ul class="space-y-3">
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Pipeline Laying &amp; Welding</span>
+</li>
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Integrity Testing &amp; Commissioning</span>
+</li>
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Pipeline Repair &amp; Maintenance</span>
+</li>
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Right of Way Clearing</span>
+</li>
+</ul>
+</div>
+<button class="w-full lg:w-auto bg-primary text-on-primary px-8 py-4 font-label-caps uppercase flex items-center justify-center gap-2 hover:bg-secondary transition-colors">
+                            Request Inquiry
+                            <span class="material-symbols-outlined text-[18px]">mail</span>
+</button>
+</div>
+<div class="order-1 lg:order-2 h-[400px] lg:h-[500px] border border-outline-variant overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Pipeline construction site" style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuBG4_heJ1feFGsgEhcT0FNhm7jAHee3yDVehrA1s2S7MeX6yp4kW5_FEYFhfgZSKFICF68zVCfUHnKbUUX588F4JPoG9qUDnbEfEeCURW-kofEEt1WkgXZUM13jTL7cTb_Swp9oAynEel7lkcyFwGNovWpjdWdd0hEhxlr9GbrggbcfWQB2HeY2rAfongKcYJNa9YNbkb59PPQoV899Yvmu2gNTNM-3Y4OVFchC1jc-mRR1xcoB-dFHmbp0xGLvXqtVGkK2oJ1XgbmbxcY&quot;);">
+</div>
+</div>
+</article>
+<!-- Service 4: Automated Tank Cleaning -->
+<article class="grid lg:grid-cols-2 gap-gutter items-center group transition-all duration-700 opacity-100 translate-y-0">
+<div class="h-[400px] lg:h-[500px] border border-outline-variant overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Automated tank cleaning equipment in operation at a refinery, modern technology, safety-first environment, clean and efficient process." style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuAEDCqCr-vPJC65CBdi5FNASOOjbWvhUR5ONhXl90umrTA0aMlaJhu7lb0iqvIle-hfnu-1rrZ9mMIrSHcxoSvSpBU75JGjxkywRB40Lz-h4Mk8P73VUjslCm-4eVgh5k551F9sq93Smh28JqjqdYSyTwAZfEK0ApzzoLKUAQDmHibSQjNR9751bDom4mmYLBc7io6jmQVoaNshd-GhHg2Zeejm8pgrGFkIYMoU4ThT4YYeCfB93gVx8xCXo1lcKOW7MF8KD3RBXkoIPyg&quot;);">
+</div>
+</div>
+<div class="p-8 bg-surface border border-outline-variant technical-shadow">
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-secondary bg-secondary-fixed p-3">cleaning_services</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Automated Tank Cleaning</h2>
+</div>
+<p class="font-body-md text-on-surface-variant mb-6">
+                            Cleaner tanks... intelligent tank maintenance.
+                        </p>
+<div class="mb-8">
+<span class="font-label-caps text-secondary block mb-4">CAPABILITIES</span>
+<ul class="space-y-3">
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Non-man Entry Cleaning</span>
+</li>
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Sludge Profiling &amp; Removal</span>
+</li>
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Hydro-blasting Services</span>
+</li>
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Waste Recovery &amp; Treatment</span>
+</li>
+</ul>
+</div>
+<button class="w-full lg:w-auto bg-primary text-on-primary px-8 py-4 font-label-caps uppercase flex items-center justify-center gap-2 hover:bg-secondary transition-colors">
+                            Request Inquiry
+                            <span class="material-symbols-outlined text-[18px]">mail</span>
+</button>
+</div>
+</article>
+<!-- Service 5: Calibration Services -->
+<article class="grid lg:grid-cols-2 gap-gutter items-center group transition-all duration-700 opacity-100 translate-y-0">
+<div class="order-2 lg:order-1 p-8 bg-surface border border-outline-variant technical-shadow">
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-secondary bg-secondary-fixed p-3">speed</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Calibration Services</h2>
+</div>
+<p class="font-body-md text-on-surface-variant mb-6">
+                            Precision you can measure... Operate reliably.
+                        </p>
+<div class="mb-8">
+<span class="font-label-caps text-secondary block mb-4">CAPABILITIES</span>
+<ul class="space-y-3">
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Flow Meter Calibration</span>
+</li>
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Pressure Gauge Calibration</span>
+</li>
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Temperature Sensor Calibration</span>
+</li>
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Field Calibration Services</span>
+</li>
+</ul>
+</div>
+<button class="w-full lg:w-auto bg-primary text-on-primary px-8 py-4 font-label-caps uppercase flex items-center justify-center gap-2 hover:bg-secondary transition-colors">
+                            Request Inquiry
+                            <span class="material-symbols-outlined text-[18px]">mail</span>
+</button>
+</div>
+<div class="order-1 lg:order-2 h-[400px] lg:h-[500px] border border-outline-variant overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Project management planning" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC-2vJkNZMfMR0CNGK4tRONcxScKtf5ZJE9L-MzPzGu5hyORR77piOAbLryGIHp6qECU6MjaOsoaKB7V71fWYkbLdOZ_B7fxW6dOKoOGnBPDqvq7lzXnjJ4xm9HgnbuFnPTUKztsxBPMGHUJ5gpwMWxUIXxggD2Ikys0WcMxsvX8QJQ7p5GddtSLASeqBe3fipzgi9c3fCZM8-_ob0HyNVq8R8SmL6aSbxL6l--Jxp0pg5popVCy2VkLR1VYzJ2BmzCP0dlNwyLYbnQ')">
+</div>
+</div>
+</article>
+<!-- Service 6: Cathodic Protection -->
+<article class="grid lg:grid-cols-2 gap-gutter items-center group transition-all duration-700 opacity-100 translate-y-0">
+<div class="h-[400px] lg:h-[500px] border border-outline-variant overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Building construction" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBVYUcmC6w7lfpAeDcgdeHJ-kwDdTeJR1mq5OPoYHqMKz24mRRmYm4I40Zc249j9EqnpF2aGhJEEj-J4-dPNv3y7X0C1vB8_HBoyGWjlIOlRk7zNN01s_7znwVeYnPk2fY4EKy7KBzXHsrIwHCDRJYkrnU4sER9NOWXurKSHS6oVc-CeUIc6fkoJhx25zSB5xquI5SAILRe6LZeHdDf77d0ftEGrGtk4KH_vnUQtRTIilNAZqhPZHL_Dz2z1_Kv_ww3SzNTvYtf_sBr')">
+</div>
+</div>
+<div class="p-8 bg-surface border border-outline-variant technical-shadow">
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-secondary bg-secondary-fixed p-3">shield</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Cathodic Protection</h2>
+</div>
+<p class="font-body-md text-on-surface-variant mb-6">
+                            Protecting infrastructure... Preserve integrity above it.
+                        </p>
+<div class="mb-8">
+<span class="font-label-caps text-secondary block mb-4">CAPABILITIES</span>
+<ul class="space-y-3">
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Impressed Current Systems</span>
+</li>
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Sacrificial Anode Systems</span>
+</li>
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">CP System Design</span>
+</li>
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Monitoring &amp; Surveys</span>
+</li>
+</ul>
+</div>
+<button class="w-full lg:w-auto bg-primary text-on-primary px-8 py-4 font-label-caps uppercase flex items-center justify-center gap-2 hover:bg-secondary transition-colors">
+                            Request Inquiry
+                            <span class="material-symbols-outlined text-[18px]">mail</span>
+</button>
+</div>
+</article>
+<!-- Service 7: Turnaround Maintenance -->
+<article class="grid lg:grid-cols-2 gap-gutter items-center group transition-all duration-700 opacity-100 translate-y-0">
+<div class="order-2 lg:order-1 p-8 bg-surface border border-outline-variant technical-shadow">
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-secondary bg-secondary-fixed p-3">build</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Turnaround Maintenance</h2>
+</div>
+<p class="font-body-md text-on-surface-variant mb-6">
+                            Where Precision Meets Pressure... maximum maintenance value.
+                        </p>
+<div class="mb-8">
+<span class="font-label-caps text-secondary block mb-4">CAPABILITIES</span>
+<ul class="space-y-3">
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Shutdown Planning &amp; Execution</span>
+</li>
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Plant Overhauls &amp; Upgrades</span>
+</li>
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Equipment Inspection &amp; Repair</span>
+</li>
+<li class="flex items-start gap-3 font-body-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">check_circle</span>
+<span class="">Restart Assistance</span>
+</li>
+</ul>
+</div>
+<button class="w-full lg:w-auto bg-primary text-on-primary px-8 py-4 font-label-caps uppercase flex items-center justify-center gap-2 hover:bg-secondary transition-colors">
+                            Request Inquiry
+                            <span class="material-symbols-outlined text-[18px]">mail</span>
+</button>
+</div>
+<div class="order-1 lg:order-2 h-[400px] lg:h-[500px] border border-outline-variant overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Construction site" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCKCcvQIzrSgRHpzH-5Ob_xt7TqpQ2k8hEfWoSo1eELsBi0vUUXOQjWrbTNiooFVuWBW9rrMoJ_DrPnontdKG60m9DvwXwovlhppY2gYCVVeb9jJBCeL3n1UQ77OBp9d2sUDr-eBXB2_eBShZKHwEjosssO7TQ7smbGeblsb_9cHDpMeT2xskIqpxGOQvRbod1qnnDJVYSCVpnclAIQyE24AzAwx-xbhU845pm2ircaTE1PKYNA8v2RkDqqn5EBfHAS6EJKtXyP3Kug')">
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="bg-tertiary-container text-on-tertiary py-20">
+<div class="max-w-container-max mx-auto px-margin text-center">
+<h2 class="font-headline-lg text-headline-lg mb-6">Ready to Start Your Project?</h2>
+<p class="font-body-md mb-10 max-w-2xl mx-auto text-on-tertiary-container">
+                    Our team of expert engineers and project managers are ready to discuss your vision and provide a detailed technical consultation.
+                </p>
+<div class="flex justify-center">
+<button class="bg-secondary text-on-secondary px-12 py-5 font-label-caps uppercase tracking-widest hover:scale-95 transition-transform">
+                        Schedule a Consultation
+                    </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-tertiary-container border-t border-outline-variant">
+<div class="w-full py-16 px-margin max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-4 gap-gutter">
+<div class="col-span-1 md:col-span-1">
+<div class="font-headline-lg text-headline-lg font-bold text-on-tertiary mb-6">Razant Services Limited</div>
+<p class="font-body-sm text-on-tertiary-container">
+                    Leading infrastructure and engineering firm committed to building Nigeria's future with precision and excellence.
+                </p>
+</div>
+<div>
+<h4 class="font-label-caps text-tertiary-fixed mb-6">SERVICES</h4>
+<ul class="space-y-4 font-body-sm text-on-tertiary-container">
+<li class=""><a class="hover:text-secondary transition-colors" href="#">Engineering Services</a></li>
+<li class=""><a class="hover:text-secondary transition-colors" href="#">Valves Supply &amp; Maintenance</a></li>
+<li class=""><a class="hover:text-secondary transition-colors" href="#">Pipeline Construction</a></li>
+<li class=""><a class="hover:text-secondary transition-colors" href="#">Automated Tank Cleaning</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label-caps text-tertiary-fixed mb-6">COMPANY</h4>
+<ul class="space-y-4 font-body-sm text-on-tertiary-container">
+<li class=""><a class="hover:text-secondary transition-colors" href="#">About Us</a></li>
+<li class=""><a class="hover:text-secondary transition-colors" href="#">Sustainability</a></li>
+<li class=""><a class="hover:text-secondary transition-colors" href="#">Careers</a></li>
+<li class=""><a class="hover:text-secondary transition-colors" href="#">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label-caps text-tertiary-fixed mb-6">LEGAL</h4>
+<ul class="space-y-4 font-body-sm text-on-tertiary-container">
+<li class=""><a class="hover:text-secondary transition-colors underline" href="#">Privacy Policy</a></li>
+<li class=""><a class="hover:text-secondary transition-colors underline" href="#">Terms of Service</a></li>
+</ul>
+</div>
+</div>
+<div class="w-full py-8 px-margin max-w-container-max mx-auto border-t border-outline-variant/30 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="font-body-sm text-on-tertiary-container opacity-60">
+                © 2024 Razant Services Limited. All Rights Reserved.
+            </p>
+<div class="flex gap-6">
+<a class="text-on-tertiary-container hover:text-secondary transition-colors" href="#">
+<span class="material-symbols-outlined">share</span>
+</a>
+<a class="text-on-tertiary-container hover:text-secondary transition-colors" href="#">
+<span class="material-symbols-outlined">public</span>
+</a>
+</div>
+</div>
+</footer>
+<script>
+        // Smooth reveal on scroll for services
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    entry.target.classList.remove('opacity-0', 'translate-y-10');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('article').forEach(el => {
+            el.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-10');
+            observer.observe(el);
+        });
+    </script>
+
+
+
+
+</body></html>
